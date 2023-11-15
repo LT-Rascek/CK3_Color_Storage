@@ -11,3 +11,5 @@ Other Notes:
 2). We have to explicitly name each title because PDX's quasi-templating is literal and as such, we can't simply template `title:d_$TITLE_NAME$_color = { set_color_from_title = $TITLE_NAME$ }`, as calling TITLE_NAME = this will explicitly replaced $TITLE_NAME$ with the `this` literal string. Hence why `common/on_action/CK3CS_titles.txt` will have a literal list of every title in your mod instead of some iterations over title lists.
 
 3). This code uses regular expressions, so it is quite possible the title list might reference some non-existent titles due to string matching. This should show up as a (small) list of errors in you `error.log` and should be simple enough to clean up manually.
+
+testing...
